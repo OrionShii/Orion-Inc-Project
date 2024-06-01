@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    
+  </head>
+  <body>
+    <div class="hero">
+      <div class="overlay">
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+            </div>
+            <div class="navigation">
+              <h1 ><i class="fa-solid fa-globe"></i> Orion Inc.</h1>
+              <ul>
+              <li><a href="index.html" class="button-1">HOME<i class="fa-solid fa-house"></i></a></li>
+              <li><a href="profile.html" class="button-1">PROFILE<i class="fa-solid fa-building"></i></a></li>
+              <li><a href="service.html" class="button-1">SERVICE<i class="fa-solid fa-code"></i></a></li>
+              <li><a href="client.html" class="button-1">CLIENT<i class="fa-solid fa-network-wired"></i></a></li>
+              <li><a href="about.html" class="button-1">ABOUT<i class="fa-sharp fa-solid fa-users"></i></a></li>
+              <li><a href="contactfrom.php" class="button-1">CONTACT<i class="fa-solid fa-address-book"></i></a></li>
+              <li><a href="indexdata.html" class="button-1">LOGIN<i class="fa-solid fa-right-to-bracket"></i></a></li>
+              </ul>
+            </div>
+            <div class="content">
+            </div>
+          </div>
+    <div class="form">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="firstName">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="namalengkap"
+                  name="namalengkap"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <div class="acc"><a href="login.php">Already have an account? Click here</a></div>
+            <small>&copy; Web Orion inc.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div>
+  </body>
+</html>

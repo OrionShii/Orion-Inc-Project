@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Our Client </title>
+<link rel="stylesheet" href="index.html">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</head>
+<body>
+	<div class="hero">
+		<div class="overlay">
+			<div class="container">
+				<div class="header">
+					<div class="logo">
+					</div>
+					<div class="navigation">
+						<h1 ><i class="fa-solid fa-globe"></i> Orion Inc.</h1>
+						<ul>
+						<li><a href="index.html" class="button-1">HOME<i class="fa-solid fa-house"></i></a></li>
+						<li><a href="profile.html" class="button-1">PROFILE<i class="fa-solid fa-building"></i></a></li>
+						<li><a href="service.html" class="button-1">SERVICE<i class="fa-solid fa-code"></i></a></li>
+						<li><a href="client.html" class="button-1">CLIENT<i class="fa-solid fa-network-wired"></i></a></li>
+						<li><a href="about.html" class="button-1">ABOUT<i class="fa-sharp fa-solid fa-users"></i></a></li>
+						<li><a href="contactfrom.php" class="button-1">CONTACT<i class="fa-solid fa-address-book"></i></a></li>
+						<li><a href="indexdata.html" class="button-1">LOGIN<i class="fa-solid fa-right-to-bracket"></i></a></li>
+						</ul>
+					</div>
+					<div class="content">
+					</div>
+				</div>
+                	<!-- Our Client -->
+	<div class="client">
+		<div class="container">
+			<h2 class="text-center font-weight-bold">Our Client</h2>
+			<section class="customer-logos slider">
+				<div class="slide"><img src="image/adidas.png" alt="logo"></div>
+				<div class="slide"><img src="image/facebook.png" alt="logo"></div>
+				<div class="slide"><img src="image/google.png" alt="logo"></div>
+				<div class="slide"><img src="image/msi.png" alt="logo"></div>
+				<div class="slide"><img src="image/wa.png" alt="logo"></div>
+				<div class="slide"><img src="image/Gojek.png" alt="logo"></div>
+				<div class="slide"><img src="image/instagram.png" alt="logo"></div>
+				<div class="slide"><img src="image/twitter.png" alt="logo"></div>
+			</section>
+		</div>
+		<script>
+		
+		$(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 6, 
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1500,
+				arrows: false,
+				dots: false,
+				pauseOnHover:false,
+				responsive: [{
+					breakpoint: 768,
+					setting: {
+						slidesToShow:4
+					}
+				}, {
+					breakpoint: 520,
+					setting: {
+						slidesToShow: 3
+					}
+				}]
+			});
+		});
+	
+		</script>
+	</div>
+	<!-- End Our Client -->
+
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$(".bg-loader").hide();
+		})
+	</script>
+<footer>
+	<div class="footer">
+		<small>Copyright &copy; 2023 - Orion Inc. All Rights Reserved.</small>
+	</div>
+</footer>
+</body>
+</body>
+</html>

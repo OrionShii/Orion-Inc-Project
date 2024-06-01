@@ -1,0 +1,248 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(21, 21, 21);
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo a {
+  color: beige;
+}
+
+.menu a {
+  color: beige;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hero {
+  background: url(BannerAwal.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.hero-center {
+  padding: 20% 0;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.hero-center h2 {
+  font-size: 4em;
+  color: rgb(172, 172, 172);
+}
+.hero-center p {
+  color: rgb(208, 208, 208);
+  line-height: 180%;
+}
+
+.overlay {
+  width: 100%;
+  position: relative;
+  background: rgba(11, 11, 11, 0.504);
+}
+
+.button-1 {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.btn {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 20px 40px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.profile {
+  padding: 10% 0;
+  color: rgb(180, 171, 171);
+}
+.profile-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-image .imageone {
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.profile-image .imageone img {
+  transform: scale(2.2);
+}
+.profile-image .imagetwo {
+  height: 500px;
+  width: 50%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.profile-image .imagetwo img {
+  transform: scale(2.2);
+}
+.profile-desc {
+  width: 50%;
+}
+.profile h4 {
+  color: rgb(254, 139, 8);
+  font-size: 2em;
+  font-weight: 300px;
+}
+.profile h2 {
+  font-size: 3em;
+}
+.profile p {
+  line-height: 180%;
+}
+
+.services {
+  padding: 15% 0;
+}
+
+.services-title h2 {
+  color: rgb(202, 92, 20);
+  margin-bottom: 50px;
+}
+
+.services-item {
+  color: rgb(208, 205, 205);
+  background: rgb(29, 29, 29);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 18%;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.services-item .icon {
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.services-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services-item p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .services-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+.client {
+  background: rgba(208, 90, 31, 0.5058823529);
+  padding: 10% 0;
+}
+.client-title {
+  padding: 0 0 5%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.client {
+  background-size: auto;
+}
+.client .container {
+  padding-top: 100px;
+}
+.client h2 {
+  color: rgb(182, 182, 182);
+  text-align: center;
+  padding: 30px;
+  font-size: 2em;
+}
+.client .slick-slide {
+  margin: 0 20px;
+}
+.client .slick-slide img {
+  width: 110%;
+  height: 120%;
+}
+.client .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+.client .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.client .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.client .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 300px;
+  margin: 0 20px;
+}
+.client .slick-slide img {
+  display: block;
+}
+.client .slick-initialized .slick-slide {
+  display: block;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer small {
+  color: #ffffff;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
