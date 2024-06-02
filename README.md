@@ -16,7 +16,7 @@ Orion Inc's prototype website serves as a platform for ordering web design and a
 
 **How to Contribute**
 - Fork the repository.
-- Create a new branch (git checkout -b branch-name).
+- Create a new branch ```(git checkout -b branch-name).```
 - Make changes as needed.
 - Commit and push your changes to your branch.
 - Create a pull request to the main branch.
