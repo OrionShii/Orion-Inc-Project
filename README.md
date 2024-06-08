@@ -41,4 +41,4 @@ The Orion Inc prototype website is a dynamic platform designed to cater to the n
 
 By integrating these features into the Orion Inc prototype website, we aim to provide users with a comprehensive platform for fulfilling their web design and application development needs. Whether you're a potential client or a contributor, we welcome your engagement and input to enhance the functionality and user experience of our platform.
 
-Note : ```This Is Still Protoype```
+Note : ```"This is my first website that I've built entirely on my own. It's still in the prototype stage, and I'm constantly refining it to improve the user experience"```
