@@ -10,15 +10,11 @@ The Orion Inc prototype website is a dynamic platform designed to cater to the n
 
 3. **Portfolio Showcase:** Orion Inc proudly presents its portfolio of past projects, showcasing its expertise and capabilities in web design and application development. This feature provides potential clients with insights into the quality and diversity of services offered.
 
-4. **User Authentication:** The website includes a user authentication system comprising login and registration forms. Users can create new accounts or log in to existing ones securely, ensuring a personalized and secure browsing experience.
+![Screenshot 2024-06-08 153533](https://github.com/user-attachments/assets/bb6d467e-c1b7-41df-b42c-404114d3f72a)
+![Screenshot 2024-06-08 153548](https://github.com/user-attachments/assets/2f8f3a53-4fe7-49b8-84ab-700bed087f78)
+![Screenshot 2024-06-08 153600](https://github.com/user-attachments/assets/2cfb89fd-b766-47e3-91b2-8493ff8eee70)
+![Screenshot 2024-06-08 153653](https://github.com/user-attachments/assets/4a8b46bb-6afa-4ea2-8e2d-80364ea3ba52)
 
-5. **Dashboard:** Upon successful login, users are directed to their personalized dashboard. The dashboard serves as a centralized hub where users can manage their accounts, view order status, access transaction history, and update profile information.
-
-6. **User Profile Management:** Users have the ability to manage their profiles, update personal information, and modify account settings as needed. This feature empowers users to maintain accurate and up-to-date records within the system.
-
-7. **Order Management:** The website offers robust order management functionality, allowing users to view, track, and manage their orders efficiently. Users can monitor the progress of their projects, communicate with project managers, and track delivery timelines.
-
-8. **Transaction History:** Users can access a comprehensive transaction history that provides detailed records of past orders, payments, and transactions. This feature facilitates transparency and accountability in financial transactions.
 
 **Technology Stack:**
 
